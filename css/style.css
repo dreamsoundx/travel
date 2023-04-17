@@ -79,6 +79,11 @@ body {
   background: #e8e8e8 url('../img/bg.png') 62% 111px no-repeat;
 }
 
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
 .content {
   padding: 168px 0 137px 0;
   max-width: 841px;
