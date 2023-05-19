@@ -1,42 +1,35 @@
-<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
 <!DOCTYPE html>
-<!-- Оболочка документа, указываем язык содержимого -->
-<html lang="ru">
-<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+<html lang="eng">
 
 <head>
-  <!-- Заголовок страницы в браузере -->
-  <title>Travel</title>
-  <!-- Подключаем CSS -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="css/style.css">
-  <!-- Кодировка страницы -->
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel</title>
 </head>
-<!-- Отображаемое тело страницы -->
 
 <body>
   <div class="wrapper">
     <div class="travel">
       <div class="travel__container">
-        <div class="travel__top titles">
-          <div class="titles__label">Travel</div>
-          <h1 class="titles__item">
-            Donec sed odio dui. Cras mattis consectetur purus sit amet
-            fermentum.
-          </h1>
+        <div class="travel__label">Travel</div>
+        <h1 class="travel__title">
+          Donec sed odio dui. Cras mattis consectetur purus sit amet
+          fermentum.
+        </h1>
+        <div class="travel__picture">
+          <img class="travel__image" src="assets/img/travel.jpg" alt="travel">
         </div>
-        <div class="travel__image image-travel">
-          <img class="image-travel__item" src="img/image.jpg" alt="image">
-        </div>
-        <div class="travel__bottom">
-          <div class="travel__text text-travel">
-            <p class="text-travel__item">
+        <div class="travel__content">
+          <div class="travel__info">
+            <p class="travel__text">
               Donec aredsed odio dui. Morbi leo risus, porta ac consectetur ac,
               vestibulum at eros. Morbi leo risus, porta ac consectetur ac,
               vestibulum at eros. Donec ullamcorper nulla non metus auctor
               fringilla.
             </p>
-            <p class="text-travel__item">
+            <p class="travel__text">
               Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
               vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
               venenatis vestibulum.
@@ -50,8 +43,8 @@
           </ul>
           <a class="travel__button button" href="#">
             <div class="button__title ">Full Story</div>
-            <div class="button__icon icon-button">
-              <img class="icon-button__item" src="img/icons/arrow.svg" alt="arrow">
+            <div class="button__icon">
+              <img class="button__image" src="assets/icons/arrow.svg" alt="arrow">
             </div>
           </a>
         </div>
